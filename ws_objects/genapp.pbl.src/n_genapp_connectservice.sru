@@ -6,6 +6,7 @@ end type
 end forward
 
 global type n_genapp_connectservice from nonvisualobject
+event ue_addtest ( )
 end type
 global n_genapp_connectservice n_genapp_connectservice
 
@@ -22,6 +23,9 @@ public function integer of_getconnectioninfo (ref string as_dbms, ref string as_
 public function integer of_connectdb ()
 public function integer of_disconnectdb ()
 end prototypes
+
+event ue_addtest();//
+end event
 
 public function integer of_getconnectioninfo (ref string as_dbms, ref string as_database, ref string as_userid, ref string as_dbpass, ref string as_logid, ref string as_logpass, ref string as_server, ref string as_dbparm, ref string as_lock, ref string as_autocommit);//*--------------------------------------------------------*/
 //*  The source of connection information can be changed by

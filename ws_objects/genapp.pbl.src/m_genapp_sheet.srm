@@ -3,6 +3,11 @@ $PBExportComments$Generated MDI Sheet Menu
 forward
 global type m_genapp_sheet from m_genapp_frame
 end type
+type m_testadd from menu within m_help
+end type
+type m_help from m_genapp_frame`m_help within m_genapp_sheet
+m_testadd m_testadd
+end type
 end forward
 
 global type m_genapp_sheet from m_genapp_frame
@@ -12,6 +17,21 @@ global m_genapp_sheet m_genapp_sheet
 on m_genapp_sheet.create
 m_genapp_sheet=this
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_genapp_sheet.destroy
@@ -23,6 +43,21 @@ end type
 
 on m_file.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_file.destroy
@@ -34,6 +69,21 @@ end type
 
 on m_new.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_new.destroy
@@ -45,6 +95,21 @@ end type
 
 on m_sheet1.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet1.destroy
@@ -56,6 +121,21 @@ end type
 
 on m_sheet2.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet2.destroy
@@ -67,6 +147,21 @@ end type
 
 on m_sheet3.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet3.destroy
@@ -78,6 +173,21 @@ end type
 
 on m_sheet4.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet4.destroy
@@ -89,6 +199,21 @@ end type
 
 on m_sheet5.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet5.destroy
@@ -100,6 +225,21 @@ end type
 
 on m_sheet6.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet6.destroy
@@ -111,6 +251,21 @@ end type
 
 on m_sheet7.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet7.destroy
@@ -122,6 +277,21 @@ end type
 
 on m_sheet8.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet8.destroy
@@ -133,6 +303,21 @@ end type
 
 on m_sheet9.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet9.destroy
@@ -144,6 +329,21 @@ end type
 
 on m_sheet10.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_sheet10.destroy
@@ -155,6 +355,22 @@ end type
 
 on m_open.create
 call super::create
+this.toolbaritemname = "open!"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_open.destroy
@@ -167,6 +383,21 @@ end type
 on m_close.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_close.destroy
@@ -178,6 +409,21 @@ end type
 
 on m_dash1.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash1.destroy
@@ -190,6 +436,22 @@ end type
 on m_print.create
 call super::create
 this.enabled = true
+this.toolbaritemname = "print!"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_print.destroy
@@ -202,6 +464,22 @@ end type
 on m_print_query.create
 call super::create
 this.enabled = true
+this.toolbaritemname = "print!"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_print_query.destroy
@@ -213,6 +491,21 @@ end type
 
 on m_printersetup.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_printersetup.destroy
@@ -224,6 +517,21 @@ end type
 
 on m_dash2.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash2.destroy
@@ -235,6 +543,21 @@ end type
 
 on m_toolbars.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_toolbars.destroy
@@ -246,6 +569,21 @@ end type
 
 on m_dash3.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash3.destroy
@@ -257,6 +595,22 @@ end type
 
 on m_exit.create
 call super::create
+this.toolbaritemname = "exit!"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_exit.destroy
@@ -268,6 +622,21 @@ end type
 
 on m_edit.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_edit.destroy
@@ -279,6 +648,21 @@ end type
 
 on m_undo.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_undo.destroy
@@ -290,6 +674,21 @@ end type
 
 on m_dash5.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash5.destroy
@@ -301,6 +700,21 @@ end type
 
 on m_cut.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_cut.destroy
@@ -312,6 +726,21 @@ end type
 
 on m_copy.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_copy.destroy
@@ -323,6 +752,21 @@ end type
 
 on m_paste.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_paste.destroy
@@ -334,6 +778,21 @@ end type
 
 on m_clear.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_clear.destroy
@@ -345,6 +804,21 @@ end type
 
 on m_window.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_window.destroy
@@ -357,6 +831,21 @@ end type
 on m_tilevertical.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_tilevertical.destroy
@@ -369,6 +858,21 @@ end type
 on m_tilehorizontal.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_tilehorizontal.destroy
@@ -381,6 +885,21 @@ end type
 on m_layer.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_layer.destroy
@@ -393,6 +912,21 @@ end type
 on m_cascade.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_cascade.destroy
@@ -404,6 +938,21 @@ end type
 
 on m_dash6.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash6.destroy
@@ -416,6 +965,21 @@ end type
 on m_arrangeicons.create
 call super::create
 this.enabled = true
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_arrangeicons.destroy
@@ -423,14 +987,33 @@ call super::destroy
 end on
 
 type m_help from m_genapp_frame`m_help within m_genapp_sheet
+m_testadd m_testadd
 end type
 
 on m_help.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_testadd=create m_testadd
+this.Item[UpperBound(this.Item)+1]=this.m_testadd
 end on
 
 on m_help.destroy
 call super::destroy
+destroy(this.m_testadd)
 end on
 
 type m_helpindex from m_genapp_frame`m_helpindex within m_help
@@ -438,6 +1021,21 @@ end type
 
 on m_helpindex.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_helpindex.destroy
@@ -449,6 +1047,21 @@ end type
 
 on m_search.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_search.destroy
@@ -460,6 +1073,21 @@ end type
 
 on m_dash4.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_dash4.destroy
@@ -471,9 +1099,51 @@ end type
 
 on m_aboutquickapp.create
 call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
 end on
 
 on m_aboutquickapp.destroy
+call super::destroy
+end on
+
+type m_testadd from menu within m_help
+end type
+
+on m_testadd.create
+call super::create
+this.text = "testadd"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_testadd.destroy
 call super::destroy
 end on
 
